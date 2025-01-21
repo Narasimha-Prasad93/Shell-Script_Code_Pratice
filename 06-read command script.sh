@@ -13,3 +13,5 @@ echo "Password is : $PASSWORD"  ## i am priting the username for validation purp
 ## Above two commands will store the username and password in respective variables and it will not show to end-user at runtime and same inputs are stored in read command
 ## -s = it will encript the data and stores in read command.
 
+## note --> we are asking inputs dynamically from the user
+
