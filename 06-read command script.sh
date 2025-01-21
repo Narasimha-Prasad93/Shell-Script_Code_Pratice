@@ -3,7 +3,7 @@
 echo "Please enter your username:"
 read -s USERNAME ## USERNAME is a variable
 echo "Please enter your password"
-read -s PASSWORD  ## USERNAME is a variable
+read -s PASSWORD  ## PASSWORD is a variable
 
 echo "UserName is : $USERNAME"  ## i am priting the username for validation purpose only
 echo "Password is : $PASSWORD"  ## i am priting the username for validation purpose only 
