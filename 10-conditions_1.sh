@@ -17,6 +17,7 @@ yum install mysql -y
 if [ $? -ne 0 ]  ## $? is the exit status of the above command and it checks the success or failure and stores it in its storage
 then 
     echo "Error :: installing mysql is FAILED"
+    exit 1
 else 
     echo "installing mysql is SUCCESS"
 fi
