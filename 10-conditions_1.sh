@@ -12,6 +12,8 @@ fi
 
 yum install mysql -y
 
+## below are the validation.
+
 if [ $? -ne 0 ]  ## $? is the exit status of the above command and it checks the success or failure and stores it in its storage
 then 
     echo "Error :: installing mysql is FAILED"
