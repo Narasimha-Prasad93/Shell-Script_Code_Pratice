@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ID=$(id -u)
+ID=$(id -u) ## -id -u--> we are verifying root user or not and storing it in ID variable.
 
 if [ $ID -ne 0 ]
 then 
