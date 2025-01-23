@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ID=$(id -u)
-
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
@@ -22,10 +21,8 @@ VALIDATE(){
     else
         echo -e "$2 ... $G SUCCESS $N"
 
-    fi
-    
+    fi    
 }
-
 
 if [ $ID -ne 0 ]
 then
@@ -36,9 +33,7 @@ else
 fi
 
 yum install mysql -y &>>$LOGFILE
-
 VALIDATE $? "Installing MYSQL"
 
 yum install git -y &>>$LOGFILE
-
 VALIDATE $? "Installing GIT"
